@@ -1,23 +1,28 @@
 # LOGARS
 Cross platform browser-based scalable 3D rendering system optimized for low to mid-range consumer devices.
-## Hierarchy
-logars/
-├── index.html            # Main entry HTML file
-├── css/
-│   └── style.css         # Styling for canvas
-├── src/                  # Source files for engine code
-│   ├── core/             
-│   │   ├── engine.js     # Core engine logic
-│   │   ├── renderer.js   # Renderer class, optimized for scalable 3D rendering
-│   │   ├── input.js      # Input handling
-│   │   └── utils.js      # Utility functions (math, loading helpers)
-│   ├── platform/         # Platform-specific implementations
-│   │   ├── web.js        # Web-specific settings, WebGL setup
-│   │   └── native.js     # Placeholder for potential native/WebAssembly setup
-│   └── scenes/           # Contains scene setup files
-│       └── exampleScene.js # Example scene with basic rendering
-├── assets/               # Asset directory for textures, models, etc.
-├── tests/                # Tests for various components
-│   └── engine.test.js    # Basic test file for engine methods
-├── README.md             # Project overview and instructions
-└── .gitignore            # Ignored files
+
+# Cross-platform Renderer
+
+LOGARS is a cross-platform, browser-based 3D rendering engine designed for scalability and performance on low- to mid-range consumer devices. It leverages WebGL for rendering in web environments, with potential for native support through WebAssembly in the future.
+
+## Features
+
+- **Cross-Platform Compatibility**: Optimized for browsers, with future extensions planned for native and mobile environments.
+- **Scalability**: Suitable for both simple scenes and more complex 3D environments.
+- **Device Optimization**: Aimed at providing a smooth experience on low- to mid-range consumer devices.
+- **Modular Architecture**: Easily extendable with modular components for core functionality, rendering, and input handling.
+
+## Project Structure
+
+- `index.html` - Entry point for initializing the rendering engine in a browser.
+- `src/core/` - Core engine components, including the main game loop, renderer, and input handling.
+- `src/platform/` - Platform-specific implementations, such as `web.js` for browser compatibility.
+- `src/scenes/` - Scene files that define and set up 3D objects for rendering.
+- `assets/` - Folder for textures, models, and other resources.
+- `tests/` - Contains automated tests for engine components.
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/griffin-gould/cross3d-renderer.git
