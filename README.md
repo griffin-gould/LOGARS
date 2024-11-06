@@ -25,7 +25,7 @@ LOGARS is a cross-platform, browser-based 3D rendering engine designed for scala
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/griffin-gould/cross3d-renderer.git
+   git clone https://github.com/griffin-gould/logars.git
 
 2. Start a local web server (Python example):
    ```bash
